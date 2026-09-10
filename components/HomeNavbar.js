@@ -8,7 +8,7 @@ export default function HomeNavbar() {
   const [inputActive, setInputActive] = useState(false);
 
   return (
-    <nav className="xl:py-[40px] pt-[32px] sm:pb-[32px] pb-[148px] xl:px-[32px] sm:px-[24px] px-[6px] flex justify-center sm:outline-1 sm:outline-[#c3d4e966] sm:z-10">
+    <nav className="bg-white xl:py-[40px] pt-[32px] sm:pb-[32px] pb-[148px] xl:px-[32px] sm:px-[24px] px-[6px] flex justify-center sm:outline-1 sm:outline-[#c3d4e966] sm:z-10">
       <div className="w-full max-w-[1440px] flex items-center justify-between lg:static relative">
         <div className="flex flex-col lg:flex-row lg:items-center items-start lg:gap-[81px] gap-[32px] w-full xl:ml-[28px]">
           {/* Logo */}
